@@ -1,5 +1,5 @@
-from math import sqrt
+import numpy as np
 
 def hyperbola(x):
-    assert abs(x) > 1.
-    return sqrt(x**2 - 1)
+    assert np.abs(x) > 1.
+    return np.sqrt(x**2 - 1)
